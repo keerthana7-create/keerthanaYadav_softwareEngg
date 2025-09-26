@@ -1,0 +1,21 @@
+@use "./_variables.scss" as *;
+
+:root {
+  --brand-primary: #6b5cff;
+  --radius-lg: #{$radius};
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.card {
+  border-radius: var(--radius-lg);
+}
